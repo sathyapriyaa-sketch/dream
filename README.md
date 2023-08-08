@@ -124,7 +124,7 @@ docker-compose -f docker-compose.yml -f assistant_dists/dream/docker-compose.ove
 Refer to the [components](#components) section to see estimated requirements.
 
 ```
-docker-compose -f docker-compose.yml -f assistant_dists/dream/docker-compose.override.yml -f assistant_dists/dream/dev.yml up --build
+docker-compose -f docker-compose.yml -f assistant_dists/dream_tiny/docker-compose.override.yml -f assistant_dists/dream_tiny/dev.yml up --build
 ```
 
 We've also included a config with GPU allocations for multi-GPU environments:
